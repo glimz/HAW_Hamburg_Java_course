@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=WindFarm
+comment0.text=\r\n\ The\ wind-farm.\r\n\r\n\ @author\ (Desmond\ Nduma)\r\n
+comment1.params=name\ country\ numberTurbines\ turbineModel\ turbinePower\ year
+comment1.target=WindFarm(java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ double,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ WindFarm\r\n
+comment2.params=
+comment2.target=double\ getCapacity()
+comment2.text=\r\n\ Calculating\ the\ capacity\r\n
+comment3.params=
+comment3.target=void\ print()
+comment4.params=
+comment4.target=java.lang.String\ getCountry()
+numComments=5

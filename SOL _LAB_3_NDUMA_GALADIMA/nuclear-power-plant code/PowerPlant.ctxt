@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PowerPlant
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ PowerPlant\ here.\r\n\r\n\ @author\ (Galadima\ Ahmed)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=powerPlant\ country\ capacity\ connectionYear\ units
+comment1.target=PowerPlant(java.lang.String,\ java.lang.String,\ double,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ PowerPlant\r\n
+comment2.params=
+comment2.target=double\ getCapacity()
+comment3.params=
+comment3.target=void\ print()
+comment4.params=
+comment4.target=java.lang.String\ getCountry()
+numComments=5
