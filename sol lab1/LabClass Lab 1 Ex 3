@@ -1,0 +1,60 @@
+Student student1 = new Student("Christian Rolando", "23456");
+Student student2 = new Student("Patrick Evra", "457362");
+Student student3 = new Student("Jay jay Okocha", "237454");
+Student student6 = new Student("samuel Etto", "23465");
+Student student4 = new Student("Kanu Uwanko", "234869");
+Student student5 = new Student("George weah", "548576");
+LabClass labClass1 = new LabClass(6);
+labClass1.enrollStudent(student1);
+labClass1.enrollStudent(student2);
+labClass1.enrollStudent(student3);
+labClass1.enrollStudent(student4);
+labClass1.enrollStudent(student5);
+labClass1.enrollStudent(student6);
+student1.getName()
+    returned String "Christian Rolando"
+student1.getLoginName()
+    returned String "Chri234"
+student2.getLoginName()
+    returned String "Patr457"
+student3.getLoginName()
+    returned String "Jay 237"
+student6.getLoginName()
+    returned String "samu234"
+student4.getLoginName()
+    returned String "Kanu234"
+student4.getLoginName()
+    returned String "Kanu234"
+student5.getLoginName()
+    returned String "Geor548"
+labClass1.setRoom("124");
+labClass1.setInstructor("Ahmed Galadima");
+labClass1.setTime("Wednesday, 8am");
+student1.addCredits(19);
+student2.addCredits(18);
+student3.addCredits(14);
+student6.addCredits(8);
+student4.addCredits(15);
+student5.addCredits(19);
+labClass1.printList();
+Lab class Wednesday, 8am
+Instructor: Ahmed Galadima   Room: 124
+Class list:
+Christian Rolando, student ID: 23456, credits: 19
+Patrick Evra, student ID: 457362, credits: 18
+Jay jay Okocha, student ID: 237454, credits: 14
+Kanu Uwanko, student ID: 234869, credits: 15
+George weah, student ID: 548576, credits: 19
+samuel Etto, student ID: 23465, credits: 8
+Number of students: 6
+labClass1.printList();
+Lab class Wednesday, 8am
+Instructor: Ahmed Galadima   Room: 124
+Class list:
+Christian Rolando, student ID: 23456, credits: 19
+Patrick Evra, student ID: 457362, credits: 18
+Jay jay Okocha, student ID: 237454, credits: 14
+Kanu Uwanko, student ID: 234869, credits: 15
+George weah, student ID: 548576, credits: 19
+samuel Etto, student ID: 23465, credits: 8
+Number of students: 6
