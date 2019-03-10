@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TicTacToe2
+comment0.text=\n\ TicTacToe\ using\ a\ 2-d\ Array\ as\ gameboard\n\n\ https\://en.wikipedia.org/wiki/Tic-tac-toe\n\n\ @author\ Wolf\ Changeme\!\n\ @version\ 05/2018\n
+comment1.params=
+comment1.target=TicTacToe2()
+comment1.text=\n\ Constructor\ for\ TicTacToe\n
+comment2.params=x\ y
+comment2.target=void\ placeStone(int,\ int)
+comment2.text=\n\ places\ a\ stone\ at\ position\ [x,y]\n\ @param\ x\ the\ x-coordinate\n\ @param\ y\ the\ y-coordinate\n
+comment3.params=x\ y
+comment3.target=boolean\ isFreeField(int,\ int)
+comment3.text=\n\ places\ a\ stone\ at\ position\ [x,y]\n\ @param\ x\ the\ x-coordinate\n\ @param\ y\ the\ y-coordinate\n
+comment4.params=x\ y
+comment4.target=int\ getStone(int,\ int)
+comment4.text=\n\ places\ a\ stone\ at\ position\ [x,y]\n\ @param\ x\ the\ x-coordinate\n\ @param\ y\ the\ y-coordinate\n
+comment5.params=
+comment5.target=boolean\ didCurrentPlayerWin()
+comment5.text=\n\ places\ a\ stone\ at\ position\ [x,y]\n\ @param\ x\ the\ x-coordinate\n\ @param\ y\ the\ y-coordinate\n
+comment6.params=
+comment6.target=void\ printBoard()
+comment6.text=\n\ Prints\ the\ board\ to\ the\ console\ for\ debugging\ purposes\n
+numComments=7

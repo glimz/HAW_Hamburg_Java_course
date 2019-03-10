@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=TicTacToeGame
+comment0.text=\n\ Write\ a\ description\ of\ interface\ TicTacToeGame\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=x\ y
+comment1.target=void\ placeStone(int,\ int)
+comment1.text=\n\ An\ example\ of\ a\ method\ header\ -\ replace\ this\ comment\ with\ your\ own\n\n\ @param\ \ y\ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ the\ result\ produced\ by\ sampleMethod\n
+comment2.params=x\ y
+comment2.target=boolean\ isFreeField(int,\ int)
+comment3.params=x\ y
+comment3.target=int\ getStone(int,\ int)
+comment4.params=
+comment4.target=boolean\ didCurrentPlayerWin()
+comment5.params=
+comment5.target=void\ switchPlayer()
+comment6.params=
+comment6.target=void\ printBoard()
+comment7.params=
+comment7.target=void\ resetGame()
+numComments=8
