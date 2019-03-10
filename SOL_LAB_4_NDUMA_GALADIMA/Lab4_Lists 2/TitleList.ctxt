@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TitleList
+comment0.text=\n\ An\ Interface\ for\ Title-Lists.\ \n\ A\ TitleList\ contains\ a\ set\ of\ music\ titles\ in\ a\ user\ specified\ order\n\ <br>\n\ Because\ the\ order\ of\ the\ titles\ is\ extremely\ important,\ there\ needs\ to\ be\ index-based\n\ operations\ on\ every\ Title-List.\ Duplicates\ are\ allowed.\n\ You\ might\ want\ to\ have\ the\ same\ title\ twice\n\ \n\ @author\ Orsini,\ Posdorfer\n\ @version\ 01/2018\n
+comment1.params=titel\ position
+comment1.target=void\ add(Title,\ int)
+comment1.text=\n\ Adds\ a\ Title\ at\ the\ position\ <code>position</code>\ in\ this\ TitleList.\n\ Every\ following\ entry\ will\ be\ pushed\ back\ by\ one\ index\ position.\n\ If\ <code>position</code>\ equals\ the\ size\ of\ the\ list,\ add\ it\ to\ the\ end\n\ \n\ @param\ titel\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ A\ title\n\ @param\ position\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ desired\ position\ of\ this\ title.\ Valid\ indexes\ are\ from\ 0\ to\ getLength()-1.\n
+comment2.params=position
+comment2.target=void\ delete(int)
+comment2.text=\n\ Removes\ the\ title\ at\ the\ given\ position.\ Every\ entry\ following\ the\ deleted\ entry\ will\ move\ one\ index\ up.\n\ \n\ @param\ position\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ A\ position\ in\ this\ list.\ Valid\ indexes\ are\ from\ 0\ to\ getLength()-1.\n
+comment3.params=titel
+comment3.target=boolean\ contains(Title)
+comment3.text=\n\ Check\ to\ see\ of\ a\ Title\ is\ already\ in\ this\ list.\n\ \n\ @param\ titel\n\ \ \ \ \ \ \ \ \ \ \ \ A\ title.\n\ @return\ returns\ <code>true</code>\ if\ this\ title\ is\ in\ the\ list,\n\ \ \ \ \ \ \ \ \ else\ <code>false</code>.\n
+comment4.params=position
+comment4.target=Title\ getTitle(int)
+comment4.text=\n\ returns\ the\ title\ at\ the\ given\ position\n\ \n\ @param\ position\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ position\ of\ the\ title.\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ valid\ indexes\ are\ from\ 0\ to\ getLength()-1.\n\ @return\ returns\ the\ title\ at\ <code>position</code>.\n
+comment5.params=
+comment5.target=int\ getLength()
+comment5.text=\n\ Returns\ the\ number\ of\ elements\ in\ this\ list.\n\ \n\ @return\ Number\ of\ elements\ in\ this\ list.\n
+comment6.params=
+comment6.target=void\ clear()
+comment6.text=\n\ Removes\ all\ elements\ from\ this\ list.\n
+numComments=7

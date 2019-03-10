@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=TitleDatabase
+comment0.text=\n\ this\ class\ implements\ a\ simple\ database\ of\ titles.\n\ \n\ @author\ Orsini,\ Posdorfer\n\ @version\ 01/2018\n
+comment1.params=databaseFile
+comment1.target=TitleDatabase(java.lang.String)
+comment1.text=\n\ Initializes\ a\ database\ from\ a\ given\ file\n\ \n\ @param\ databaseFile\n\ \ \ \ \ \ \ \ \ \ \ \ filename\ of\ the\ database\n
+comment2.params=
+comment2.target=TitleDatabase()
+comment2.text=\n\ Initializes\ a\ database\ from\ the\ JazzMix.txt\n
+comment3.params=count
+comment3.target=Title[]\ getRandomTitle(int)
+comment3.text=\n\ returns\ a\ number\ of\ random\ titles\ from\ the\ list.\n\ \n\ @param\ count\n\ \ \ \ \ \ \ \ \ \ \ \ how\ many\ items\n
+comment4.params=
+comment4.target=void\ printToConsole()
+comment4.text=\n\ Writes\ every\ item\ to\ the\ console\n
+comment5.params=fileName
+comment5.target=void\ read(java.lang.String)
+comment5.text=\n\ Reads\ every\ Title\ from\ the\ file,\ line\ by\ line\n\ \n\ @param\ fileName\n\ \ \ \ \ \ \ \ \ \ \ \ filename\ of\ the\ txt-file\n
+comment6.params=line
+comment6.target=void\ handleLine(java.lang.String)
+numComments=7

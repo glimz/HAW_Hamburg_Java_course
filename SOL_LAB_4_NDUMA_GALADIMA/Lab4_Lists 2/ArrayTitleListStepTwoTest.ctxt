@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ArrayTitleListStepTwoTest
+comment0.text=\n\ This\ Test-Class\ tests\ the\ functionality\ provided\ in\ Step\#2\ of\ the\ array\ implementation\n\n\ @author\ \ Orsini,\ Posdorfer\n\ @version\ 01/2018\n
+comment1.params=
+comment1.target=void\ testDeletingFromLargeList()
+comment1.text=\n\ test\ if\ items\ can\ be\ removed\ from\ lists,\ which\ are\ larger\ than\ 10\n
+comment2.params=
+comment2.target=void\ testEnlargingList()
+comment2.text=\n\ Tests\ if\ the\ list\ corretly\ enlarges\ when\ adding\ multiple\ elements\n
+comment3.params=
+comment3.target=void\ testGrowingOfList()
+comment3.text=\n\ Tests\ the\ 'growing'\ of\ lists,\ when\ adding\ alot\ of\ elements\n
+numComments=4
