@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=WindFarmTable
+comment0.text=\n\ class\ WindFarmTable\n\n\ @author\ (Desmond\ Nduma)\n
+comment1.params=windFarmName
+comment1.target=WindFarmTable(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ WindFarmTable\n
+comment2.params=powerStation
+comment2.target=void\ addPowerStation(WindFarm)
+comment3.params=
+comment3.target=double\ getTotalPower()
+comment4.params=
+comment4.target=void\ printTable()
+comment5.params=
+comment5.target=void\ fillTable()
+comment6.params=index
+comment6.target=WindFarm\ get(int)
+comment7.params=country
+comment7.target=void\ listWindFarms(java.lang.String)
+numComments=8
